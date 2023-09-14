@@ -1,0 +1,54 @@
+body{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.bloque1{
+    
+    height: 2em;
+    width: 35em; 
+    padding: 2em; 
+    background-color: #ffa600de; 
+    border: 2px solid black; 
+
+}
+
+.bloque2{
+
+    width: 35em; 
+    padding: 2em; 
+    background-color: #ffa60097; 
+    border: 2px solid black; 
+
+}
+
+.enunciado{
+    
+    font-weight: bold;
+    color: blue;
+
+}
+
+.texto-mixto{
+    
+    display: flex;
+    align-items: baseline;
+
+}
+
+.frase-previa{
+    
+    font-weight: bold;
+    margin-right: 1em;
+    color: rgb(109, 146, 233);
+}
+
